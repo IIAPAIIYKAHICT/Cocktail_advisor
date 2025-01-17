@@ -106,6 +106,7 @@ The **Cocktail Advisor Chat** was tested with a variety of questions. Below are 
 ```bash
   docker build --build-arg OPENAI_API_KEY=sk-ваш-ключ -t cocktail-advisor .
   docker run -d -p 8000:8000 cocktail-advisor
+  ```
 3. **Access the Chat:**
 
 Open your browser and navigate to http://127.0.0.1:8000
