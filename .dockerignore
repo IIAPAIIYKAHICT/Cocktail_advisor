@@ -1,0 +1,23 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+.env
+.venv
+
+# Ignore FAISS files
+models/*.faiss
+
+# Ignore development-related files
+*.log
+*.lock
+poetry.lock
+pyproject.toml
+*.md
+*.json
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
