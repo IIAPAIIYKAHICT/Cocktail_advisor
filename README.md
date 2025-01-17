@@ -110,6 +110,7 @@ The **Cocktail Advisor Chat** was tested with a variety of questions. Below are 
 3. **Access the Chat:**
 
 Open your browser and navigate to http://127.0.0.1:8000
+
 4. **Stop and Remove container**
 ```bash
 docker stop cocktail-advisor-container
